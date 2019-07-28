@@ -1,0 +1,53 @@
+package com.zensar.daos;
+
+import java.util.List;
+
+import com.mysql.cj.Session;
+import com.zensar.entities.Product;
+
+/*
+ * Author: Pickle Rick
+ * Creation Date: 26th July 2019 10.02 AM
+ * Modified Date: 26th July 2019 10.02 AM
+ * Version: 1.0
+ * Copyright: Zensar Technologies. All rights reserved.
+ * Description: Data Access Object Interface implementor.
+ * It is uses HibernateAPI to access Product Data from Database.   
+ * */
+
+public class ProductDAO_Impl implements ProductDAO {
+
+	private Session session;
+	
+	
+	@Override
+	public void insert(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void update(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void delete(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Product getById(int productId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Product> getAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

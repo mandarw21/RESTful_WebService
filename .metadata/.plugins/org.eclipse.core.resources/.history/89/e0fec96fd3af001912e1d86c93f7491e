@@ -1,0 +1,15 @@
+package com.zensar.services.business;
+
+
+/*
+ * Author: Pickle Rick
+ * Creation Date: 26th July 2019 11.25 AM
+ * Modified Date: 26th July 2019 11.02 AM
+ * Version: 1.0
+ * Copyright: Zensar Technologies. All rights reserved.
+ * Description: Business Object Interface.
+ * It focuses on business logic of product.   
+ * */
+public interface ProductService {
+
+}
